@@ -17,45 +17,59 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes implementar la lógica de envío del formulario
     alert("Form submitted!");
   };
 
   return (
-    <section className="contact">
-      <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
+    <section className="contact container mt-5">
+      <div className="card shadow-sm">
+        <div className="card-body">
+          <h2 className="text-center mb-4">Contact Me</h2>
+          <form onSubmit={handleSubmit}>
+            <div className="mb-3">
+              <label htmlFor="name" className="form-label">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="form-control"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
+            <div className="mb-3">
+              <label htmlFor="email" className="form-label">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="form-control"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-        <label htmlFor="message">Message:</label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
+            <div className="mb-3">
+              <label htmlFor="message" className="form-label">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                className="form-control"
+                value={formData.message}
+                onChange={handleChange}
+                required
+              ></textarea>
+            </div>
 
-        <button type="submit">Send</button>
-      </form>
+            <div className="d-grid gap-2">
+              <button type="submit" className="btn btn-primary btn-sm">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
   );
 };

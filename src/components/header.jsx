@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-dark text-white">
+    <header className="text-white" style={{ backgroundColor: '#0056b3' }}>
     <div className="container-fluid">
       <div className="d-flex justify-content-between align-items-center">
         {/* Título a la izquierda */}
