@@ -1,5 +1,3 @@
-import React from "react";
-
 const Resume = () => {
   return (
     <section className="resume container mt-5">
@@ -48,6 +46,10 @@ const Resume = () => {
             </div>
             <div className="col-md-6">
               <ul className="list-group list-group-flush text-center">
+              <li className="list-group-item border-0 d-flex align-items-center justify-content-center">
+                  <i className="bi bi-check-circle-fill text-success me-2"></i>
+                  Jhipster
+                </li>
                 <li className="list-group-item border-0 d-flex align-items-center justify-content-center">
                   <i className="bi bi-check-circle-fill text-success me-2"></i>
                   Spring Boot

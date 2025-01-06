@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutMe = () => {
   return (
     <section className="about-me py-5 bg-light">
@@ -19,7 +17,7 @@ const AboutMe = () => {
               After completing my studies, I began working at ITNoroeste as a Software Developer, where I spent 3 years honing
               my skills in software development, particularly with Angular, JHipster, and Spring Boot for web development and
               system integration. In 2022, I transitioned to Infocent as a Senior Programmer Analyst, where I took on more complex
-              projects, provided technical leadership, and developed innovative software solutions, contributing to the company's
+              projects, provided technical leadership, and developed innovative software solutions, contributing to the company s
               success until 2023.
             </p>
           </div>
