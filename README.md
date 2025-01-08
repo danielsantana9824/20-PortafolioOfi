@@ -37,7 +37,7 @@ Through this project, I gained experience in:
 
 ## Video  
 ```bash  
-https://your-react-portfolio-demo.com  
+https://thriving-stroopwafel-a8b6c7.netlify.app/  
 ```  
 
 ## Installation  
