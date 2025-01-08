@@ -1,6 +1,5 @@
 # 20-PortafolioOfi
 
-
 ## Description  
 This project involves building a professional portfolio using React, showcasing your skills, projects, and experience as a web developer. The portfolio is designed to not only highlight your work but also serve as a platform to collaborate with other developers and engage with the web development community.  
 
@@ -68,7 +67,7 @@ Once the application is running, you can access it in your browser. The portfoli
 - A contact form for potential collaborators or employers to reach out.  
 
 ### Example Screenshot  
-![screenshot](images/example.png)  
+![screenshot](../20-PortafolioOfi/images/screenshot%20.png)  
 
 ## Credits  
 This portfolio project builds upon skills and techniques learned in web development courses. React Router and other libraries may have been used to enhance functionality.  
